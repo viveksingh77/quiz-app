@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/_10sdp"
+    android:layout_gravity="center"
+    android:background="@drawable/roundbg"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/messge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="This is a custom toast message"/>
+
+</LinearLayout>
