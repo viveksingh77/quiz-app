@@ -1,0 +1,142 @@
+<!-- res/layout/custom_question_dialog.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_7sdp"
+    android:background="@drawable/roundbg"
+    android:elevation="@dimen/_7sdp"
+    android:orientation="vertical"
+    android:padding="@dimen/_12sdp">
+
+    <EditText
+        android:id="@+id/editTextQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/strokebg"
+        android:hint="Enter the question"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:textStyle="bold"
+        android:padding="@dimen/_10sdp"
+        android:textSize="@dimen/_14sdp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/radioButtonOption1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A)"
+                android:textColor="@color/black"
+                android:checked="true"
+                android:layout_margin="@dimen/_2sdp"
+
+                android:textSize="@dimen/_11sdp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonOption2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B)"
+                android:layout_margin="@dimen/_2sdp"
+
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11sdp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonOption3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C)"
+                android:layout_margin="@dimen/_2sdp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11sdp"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonOption4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D)"
+                android:layout_margin="@dimen/_2sdp"
+
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11sdp"/>
+        </RadioGroup>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/editTextOption1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Option 1"
+                android:textSize="@dimen/_11sdp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:gravity="start|center"
+                android:background="@drawable/roundbg"
+                android:padding="@dimen/_11sdp"
+                android:layout_margin="@dimen/_2sdp"
+                android:inputType="text"
+                android:imeOptions="actionNext"/>
+
+            <EditText
+                android:id="@+id/editTextOption2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Option 2"
+                android:textSize="@dimen/_11sdp"
+                android:textColor="@color/black"
+                android:background="@drawable/roundbg"
+                android:padding="@dimen/_11sdp"
+                android:inputType="text"
+                android:layout_margin="@dimen/_2sdp"
+
+                android:imeOptions="actionNext"/>
+
+            <EditText
+                android:id="@+id/editTextOption3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Option 3"
+                android:textSize="@dimen/_11sdp"
+                android:textColor="@color/black"
+                android:background="@drawable/roundbg"
+                android:padding="@dimen/_11sdp"
+                android:layout_margin="@dimen/_2sdp"
+
+                android:inputType="text"
+                android:imeOptions="actionNext"/>
+            <EditText
+                android:id="@+id/editTextOption4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Option 4"
+                android:textSize="@dimen/_11sdp"
+                android:textColor="@color/black"
+                android:background="@drawable/roundbg"
+                android:padding="@dimen/_11sdp"
+                android:layout_margin="@dimen/_2sdp"
+                android:inputType="text"
+                android:imeOptions="actionNext"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btnSubmitQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:backgroundTint="@color/black"
+        android:text="Submit Question"
+        android:textSize="@dimen/_11sdp" />
+</LinearLayout>

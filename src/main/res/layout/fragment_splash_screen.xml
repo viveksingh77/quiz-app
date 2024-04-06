@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".fragment.SplashScreen">
+    tools:context=".SplashScreen">
 
 
     <TextView
@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_bold"
-        android:text="Quiz app"
+        android:text="Quiz admin app"
         android:textColor="@color/white"
         android:textSize="@dimen/_17sdp"
         app:layout_constraintBottom_toBottomOf="parent"

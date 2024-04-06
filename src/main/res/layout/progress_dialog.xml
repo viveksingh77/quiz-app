@@ -31,7 +31,7 @@
             android:layout_marginBottom="@dimen/_20sdp"
             android:gravity="center"
             android:text="Loading..."
-            android:textColor="@color/turquoise"
+            android:textColor="@color/black"
             android:textStyle="bold" />
     </LinearLayout>
 </androidx.cardview.widget.CardView>

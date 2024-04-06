@@ -13,33 +13,45 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="@dimen/_7sdp">
-
-        <TextView
-            android:id="@+id/categoryname"
+        <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/poppins_bold"
-            android:text="Science"
-            android:textColor="@color/black"
-            android:textSize="@dimen/_12sdp"
+            android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/delete"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.5" />
-
+            app:layout_constraintVertical_bias="0.5">
+            <TextView
+                android:id="@+id/questionfield"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Lorem ipsum, or lipsumas it is sometimes known, is dummy text used in laying out print, graphic or web designs"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"
+               />
+            <TextView
+                android:id="@+id/answerfield"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Answer"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10sdp"
+                />
+        </LinearLayout>
         <TextView
             android:id="@+id/delete"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
             android:fontFamily="@font/poppins_bold"
-            android:drawableStart="@drawable/baseline_delete_24"
             android:textAlignment="viewEnd"
             android:textColor="@color/black"
             android:textSize="@dimen/_12sdp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:drawableTopCompat="@drawable/baseline_delete_24" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
