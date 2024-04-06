@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "343145625888",
+    "project_id": "quiz-83155",
+    "storage_bucket": "quiz-83155.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343145625888:android:59a283cd7022538be0bf45",
+        "android_client_info": {
+          "package_name": "com.vivekishere.arsimple"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrqFMCmF4Dlm8SyOPnfOr2Le5xlHk-T7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
